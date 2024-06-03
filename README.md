@@ -104,8 +104,8 @@ k3sup join \
 - No extras are being installed (servicelb and traefik), these tend to be older versions and opting not to install these will allow the installation of a specific load balancer and reverse proxy.
 - set -x: Enables debug mode to print each command before executing it.
 - Environment Variables: Define necessary variables such as SSH key path, server IPs, k3s version, user, kubeconfig path, and Kubernetes context name.
-- k3sup install: Installs k3s on the primary server (SERVER1_IP).
-- k3sup join: Joins additional servers (SERVER2_IP and SERVER3_IP) to the cluster.
+- k3sup install: Installs k3s on the primary server (SERVER1_IP) in clustering mode.
+- k3sup join: Installs and joins additional servers (SERVER2_IP and SERVER3_IP) to the cluster.
 
 ## Recommendations
 
